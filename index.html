@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Russell Eleydo Web Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    
+    <header>
+      <a href="" class="brand" data-aos="zoom-in" data-aos-duration="1000"
+        >Design • Build • Lead</a
+      >
+      <div class="menu-btn"></div>
+      <div class="navigation">
+        <a
+          href="#main"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+          data-aos-delay="100"
+          >Home</a
+        >
+        <a
+          href="#about"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="200"
+          >About</a
+        >
+        <a
+          href="#skills"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="300"
+          >Skills</a
+        >
+        <a
+          href="#services"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="400"
+          >Services</a
+        >
+        <a
+          href="#work"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="500"
+          >Work</a
+        >
+        <a
+          href="#"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="600"
+          >Contact</a
+        >
+      </div>
+    </header>
+
+    <section class="main" id="main">
+      <div class="content">
+        <h2 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="800">
+          Hello, I'm <br /><br /><span>Russell Eleydo</span>
+        </h2>
+
+        <!-- Fade in from the left, then start typing -->
+        <div
+          class="animated-text"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          data-aos-delay="900"
+        >
+          <h5 id="typed"></h5>
+        </div>
+
+        <!-- Typed.js -->
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script>
+          document.addEventListener("DOMContentLoaded", function () {
+            // Wait until AOS fade-in is done (900ms delay + 1000ms duration)
+            setTimeout(function () {
+              new Typed("#typed", {
+                strings: [
+                  "Computer Engineer",
+                  "Software Developer",
+                  "Student Leader",
+                  "Social Media Manager",
+                  "Marketing Specialist"
+                ],
+                typeSpeed: 100,
+                backSpeed: 30,
+                backDelay: 1000,
+                loop: true,
+              });
+            }, 1900);
+          });
+        </script>
+
+        <style>
+          .animated-text h5 {
+            color: white;
+            font-size: 1.75rem; /* Bigger text */
+            font-weight: 600; /* Bolder look */
+            margin: 0;
+          }
+        </style>
+
+        <a
+          href="https://github.com/Russ2003"
+          class="btn"
+          data-aos="zoom-out"
+          data-aos-duration="1000"
+          data-aos-delay="1000"
+          >See My Work</a
+        >
+        <div class="media-icons">
+          <a
+            href="https://www.facebook.com/rvss0501/"
+            data-aos="fade-in"
+            data-aos-duration="1000"
+            data-aos-delay="1200"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/russelleleydo/?igsh=N2pvbnNobW9xZXIy&utm_source=qr&fbclid=IwY2xjawMzQEpleHRuA2FlbQIxMABicmlkETFncTlnOGhVS1pETzhLZVJjAR7l2Ya0eemXR4BYnCquRilY2Cnyl7Yb2afI2K_fanUgCd0RK-8D-_Ja0DB7Jg_aem__GY19IAG_f9UX2LwIvdXCw"
+            data-aos="fade-in"
+            data-aos-duration="1000"
+            data-aos-delay="1300"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/russelleleydo/"
+            data-aos="fade-in"
+            data-aos-duration="1000"
+            data-aos-delay="1400"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a
+            href="https://github.com/Russ2003"
+            data-aos="fade-in"
+            data-aos-duration="1000"
+            data-aos-delay="1500"
+            ><i class="fab fa-github"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <!--  About Section -->
+
+    <section class="about" id="about">
+      <div class="title reveal">
+        <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">
+          About me
+        </h2>
+      </div>
+      <div class="content">
+        <div class="column col-left reveal">
+          <div
+            class="img-card"
+            data-aos="fade-right"
+            data-aos-duration="2000"
+            data-aos-delay="200"
+          >
+            <img src="Image/IMG_3224.JPG" alt="" />
+          </div>
+        </div>
+        <div class="column col-right reveal">
+          <h2
+            class="content-title"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+          >
+            About Russell Eleydo:
+          </h2>
+          <p
+            class="paragraph-text"
+            data-aos="flip-up"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+          >
+            An engineering student at De La Salle University, he is driven to
+            create positive change through tech innovation.<br /><br /><br /><br />
+            With a track record of implementing solutions in diverse settings,
+            he thrives in dynamic environments and has honed strong
+            adaptability.<br /><br /><br /><br />
+            Fueled by curiosity and a commitment to lifelong learning, he
+            pursues continuous growth and is ready to connect and contribute to
+            advancing technology within the engineering community.
+          </p>
+          <a
+            href="#"
+            class="btn"
+            data-aos="zoom-out-left"
+            data-aos-duration="1000"
+            data-aos-delay="600"
+            >See more</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Skill Section -->
+    <section class="skills" id="skills">
+      <div class="title">
+        <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">
+          My Skills
+        </h2>
+      </div>
+
+      <div class="content">
+        <!-- Left Column -->
+        <div class="column col-left">
+          <h2
+            class="content-title"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+          >
+            My Skills and Experiences
+          </h2>
+          <div
+            class="paragraph-text"
+            data-aos="flip-down"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+          >
+            Learning these languages has made me a better programmer by making
+            me think in different ways. <br /><br />
+            HTML and CSS sharpened my sense of structure, semantics, and
+            accessibility. <br /><br />
+
+            JavaScript trained me in event driven logic, asynchronous workflows,
+            and clean interactions. <br /><br />
+
+            Python strengthened my problem solving through clear syntax,
+            automation, and data handling. <br /><br />
+
+            PHP grounded me in server side patterns, security, and database
+            discipline. <br /><br />
+
+            Together they improved my debugging habits, code organization, and
+            ability to choose the right tool for any problem, skills that carry
+            across any stack. <br /><br />
+          </div>
+          <a
+            href="#"
+            class="btn"
+            data-aos="zoom-in-right"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+            >See more</a
+          >
+        </div>
+
+        <!-- Right Column -->
+        <div class="column col-right">
+          <!-- HTML -->
+          <div class="bar" style="--val: 100%">
+            <div
+              class="info"
+              data-aos="flip-up"
+              data-aos-duration="1000"
+              data-aos-delay="100"
+            >
+              <span>HTML</span>
+              <span class="percent"></span>
+            </div>
+            <div
+              class="line html"
+              data-aos="zoom-in-right"
+              data-aos-duration="1000"
+              data-aos-delay="140"
+            ></div>
+          </div>
+
+          <!-- CSS -->
+          <div class="bar" style="--val: 100%">
+            <div
+              class="info"
+              data-aos="flip-up"
+              data-aos-duration="1000"
+              data-aos-delay="200"
+            >
+              <span>CSS</span>
+              <span class="percent"></span>
+            </div>
+            <div
+              class="line css"
+              data-aos="zoom-in-right"
+              data-aos-duration="1000"
+              data-aos-delay="240"
+            ></div>
+          </div>
+
+          <!-- JavaScript -->
+          <div class="bar" style="--val: 100%">
+            <div
+              class="info"
+              data-aos="flip-up"
+              data-aos-duration="1000"
+              data-aos-delay="300"
+            >
+              <span>JavaScript</span>
+              <span class="percent"></span>
+            </div>
+            <div
+              class="line javascript"
+              data-aos="zoom-in-right"
+              data-aos-duration="1000"
+              data-aos-delay="340"
+            ></div>
+          </div>
+
+          <!-- Python -->
+          <div class="bar" style="--val: 100%">
+            <div
+              class="info"
+              data-aos="flip-up"
+              data-aos-duration="1000"
+              data-aos-delay="400"
+            >
+              <span>Python</span>
+              <span class="percent"></span>
+            </div>
+            <div
+              class="line python"
+              data-aos="zoom-in-right"
+              data-aos-duration="1000"
+              data-aos-delay="440"
+            ></div>
+          </div>
+
+          <!-- PHP -->
+          <div class="bar" style="--val: 100%">
+            <div
+              class="info"
+              data-aos="flip-up"
+              data-aos-duration="1000"
+              data-aos-delay="500"
+            >
+              <span>PHP</span>
+              <span class="percent"></span>
+            </div>
+            <div
+              class="line php"
+              data-aos="zoom-in-right"
+              data-aos-duration="1000"
+              data-aos-delay="540"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+
+    <section class="services" id="services">
+      <div class="title">
+        <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">
+          Work, Services, and Impact
+        </h2>
+        <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+          I design and build simple, modern websites and small tools, and I lead student-run events and initiatives from planning to wrap-up. My focus is clear goals, smooth execution, and results you can feel: better visibility, easier workflows, and stronger communities. Whatever the scope, I keep it practical, dependable, and impact-driven.
+
+        </p>
+      </div>
+      <div class="content">
+        <div
+          class="card"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          data-aos-delay="400"
+        >
+          <div class="service-icon">
+            <i class="fas fa-palette"></i>
+          </div>
+          <div class="info">
+            <h3>Web Design</h3>
+            <p>
+              I design clean, friendly pages for portfolios and small
+              businesses. I start with your goals, keep layouts simple, test on
+              phones and desktops, and improve the design based on feedback. I’m
+              still growing, so I focus on clarity over fancy effects.
+            </p>
+          </div>
+        </div>
+        <div
+          class="card"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="400"
+        >
+          <div class="service-icon">
+            <i class="fas fa-tasks"></i>
+
+            <!-- Solid style in FA5 -->
+          </div>
+          <div class="info">
+            <h3>Project Management and Student Leadership</h3>
+            <p>
+            I lead student-run events and initiatives from planning to wrap-up by setting clear goals, building teams, and aligning tasks and timelines. I coordinate volunteers, partners, and org officers, handle logistics and simple budgets, and keep everyone updated with clear messages. On event day I manage flow and troubleshoot calmly. After, I gather feedback and share takeaways so the next project runs even better.
+
+            </p>
+          </div>
+        </div>
+        <div
+          class="card"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          data-aos-delay="400"
+        >
+          <div class="service-icon">
+            <i class="fas fa-file-code"></i>
+          </div>
+          <div class="info">
+            <h3>Web Development</h3>
+            <p>
+              I turn ideas into working websites and basic tools. I keep things
+              straightforward, write clear notes, and make sure the project is
+              easy to use and update. I value speed, accessibility, and
+              continuous improvement.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Section -->
+    <section class="work" id="work">
+      <div class="title">
+        <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">
+          My Work
+        </h2>
+      </div>
+      <div class="content">
+        <div
+          class="card"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          data-aos-delay="200"
+        >
+          <div class="card-img">
+            <img src="Image/Moderno Home.JPG" alt="...">
+            <div class="card-caption">
+              <h3>Moderno Home</h3>
+              <p>Modern furniture shop with curated, affordable home pieces.</p>
+            </div>
+          </div>
+
+        <div
+          class="card"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="200"
+        >
+          <div class="card-img">
+            <img src="Image/Onyok's To Go.JPG" alt="" />
+            <div class="card-caption">
+              <h3>Onyok's To Go</h3>
+              <p>Pulilan’s favorite: flavorful roasted chicken, classics and convenient street-food delivery.</p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="card"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          data-aos-delay="200"
+        >
+          <div class="card-img">
+            <img src="Image/E_Bill_System.png" alt="" />
+            <div class="card-caption">
+              <h3>Electric Bill Payment and Service System</h3>
+              <p>a Java (OOP) portal where users log in to view balances, manage accounts, and pay electric bills. Demo credentials included for testing.</p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="card"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          data-aos-delay="400"
+        >
+          <div class="card-img">
+            <img src="Image/Summer Place Resort.JPG" alt="" />
+            <div class="card-caption">
+              <h3>Summer Place Resort</h3>
+              <p>Resort in Bulancan with easy online reservation system for guests.</p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="card"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="400"
+        >
+          <div class="card-img">
+            <img src="Image/CoffeeCat.JPG" alt="" />
+            <div class="card-caption">
+              <h3>CoffeeCat</h3>
+              <p>A responsive coffee-shop site built with HTML, CSS, and JavaScript—browse the menu, order, read the blog, and get contact info.</p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="card"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          data-aos-delay="400"
+        >
+          <div class="card-img">
+            <img src="Image/Embdsys.jpg" alt="" />
+            <div class="card-caption">
+              <h3>IoT-powered Smart Parking System </h3>
+              <p>Arduino smart parking gate using ultrasonic vehicle detection, servo barrier, and LCD occupancy display.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+<!-- End of Work Section -->
+    <section class="contact" id="contact">
+      <div class="title reveal">
+        <h2 class="section-title">Contact Me</h2>
+      </div>
+      <div class="content">
+        <div class="row">
+          <div class="card reveal">
+            <div class="contact-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="info">
+              <h3>Address</h3>
+              <span>Manila, Philippines</span>
+            </div>
+          </div>
+          <div class="card reveal">
+            <div class="contact-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="info">
+              <h3>Phone</h3>
+              <span>09175619183</span>
+            </div>
+          </div>
+          <div class="card reveal">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="info">
+              <h3>Email Address</h3>
+              <span>russell_eleydo@dlsu.edu.ph</span>
+            </div>
+          </div>
+          <div class="card reveal">
+            <div class="contact-icon">
+              <i class="fab fa-linkedin-in"></i>
+
+            </div>
+            <div class="info">
+              <h3>LinkedIn</h3>
+              <span>Russell Ian Eleydo</span>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span class="footer-title">Russell Ian Eleydo</span>
+      <p>Copyright @2025 <a href="#">Russ2003</a>. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({ offset: 0 });
+    </script>
+    <script>
+      window.addEventListener("scroll", function () {
+        scrollBtn.classList.toggle("active", window.scrollY > 500);
+      });
+
+      //javascript for scroll back to top on click scroll-to-top button
+
+      // document.querySelector(".scrollToTop-btn").addEventListener("click", () => {
+      //   document.body.scrollTop = 0;
+      //   document.documentElement.scrollTop = 0;
+      // });
+
+      const menuBtn = document.querySelector(".menu-btn");
+      const navigation = document.querySelector(".navigation");
+      const navigationItems = document.querySelector(".navigation a");
+
+      menuBtn.addEventListener("click", () => {
+        menuBtn.classList.toggle("active");
+        navigation.classList.toggle("active");
+      });
+
+      // Navigation Effects
+      window.addEventListener("scroll", function () {
+        const header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+      });
+
+      navigationItems.forEach((navigationItem) => {
+        navigationItem.addEventListener("click", () => {
+          menuBtn.classList.remove("active");
+          navigation.classList.remove("active");
+        });
+      });
+    </script>
+  </body>
+</html>
